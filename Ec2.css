@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#header-1 {
+    background-color: rgb(81, 93, 112);
+    padding-bottom: 10px;
+    position: static;
+    top: 100px;
+}
+
+#stg {
+    margin: 5px;
+    border: inherit;
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    float: left;
+}
+
+#amazon-tittle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: white;
+    margin-left: 2%;
+    padding: 0px;
+    margin-right: 0px;
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+mark {
+    background-color: transparent;
+    margin-left: 0px;
+    font-size: 10px;
+    color: rgb(248, 248, 248);
+}
+
+#sign-tittle {
+    margin-left: 82%;
+    background-color: transparent;
+}
+
+small {
+    background-color: transparent;
+    margin-left: 0px;
+    font-size: 14px;
+    color: rgb(248, 248, 248);
+}
+
+div>input {
+    margin: 0px;
+    width: 90%;
+    border-radius: 5px;
+    height: 25px;
+    display: flex;
+    place-items: center;
+    margin-left: 6px;
+    float: left;
+    outline: none;
+    border: 0px;
+    color: black;
+}
+
+#i-box {
+    margin-top: 7px;
+    background-color: rgb(255, 255, 255);
+    height: 28px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 2px;
+    margin-bottom: 8px;
+}
+
+#i-box>button {
+    float: right;
+    height: 20px;
+    width: auto;
+    height: 100%;
+    width: 35.5px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgb(255, 200, 0);
+}
+
+#loc {
+    background-color: transparent;
+    border: none;
+    margin-left: 5px;
+}
+
+#header-2 {
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    height: 35px;
+    position: static;
+    box-shadow: 0px 0.1px 2px 0.1px gray;
+}
+
+#prime {
+    width: auto;
+    background-color: white;
+    float: left;
+    height: 100%;
+    display: flex;
+    place-items: center;
+    padding-right: 70%;
+    box-shadow: 0.01px 0px 2px 0px gray;
+}
+
+#prime>p {
+    margin-left: 5px;
+    height: 100%;
+    display: flex;
+    place-items: center;
+    float: left;
+    font-size: x-small;
+    color: rgb(41, 139, 214);
+    font-weight: 600;
+
+}
+
+#prime>button {
+    height: 50%;
+    width: 30px;
+    background-color: inherit;
+    border: none;
+    color: aqua;
+}
+
+#filter {
+    width: auto;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    place-items: center;
+}
+
+#filter>p {
+    font-size: 10px;
+    font-weight: 500;
+    font-style: normal;
+    float: left;
+    color: rgb(24, 186, 211);
+    border: inherit;
+    margin-right: 3px;
+    padding-left: 5px;
+}
+
+#filter>button {
+    border: none;
+    color: rgb(24, 186, 211);
+    width: auto;
+
+}
+
+#img-box>p {
+    color: rgb(77, 75, 75);
+    background-color: inherit;
+    font-size: 13px;
+}
+
+#img-box {
+    display: flex;
+    place-items: center;
+}
+
+#img-1 {
+    width: 200px;
+    height: 80px;
+    float: left;
+}
+
+#img-1>img {
+    width: 100%;
+    height: 100%;
+}
+
+#img-box-2 {
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    background-color: black;
+    display: grid;
+    place-content: center;
+    margin: 4px;
+    border-radius: 5px;
+    padding-bottom: 0px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#img-box-2>img {
+    background-size: cover;
+    width: 100%;
+    height: cover;
+    background-position: cover;
+}
+
+#s-item {
+    margin-top: -10px;
+    width: 100%;
+    height: 150px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    background-color: rgb(221, 21, 21);
+}
+
+#img-box-2>div {
+    float: left;
+    margin-top: 120px;
+    width: 100px;
+    height: 80px;
+    background-color: blueviolet;
+}
+
+iframe {
+    margin-top: -9px;
+    width: 110%;
+    height: 85px;
+    margin-bottom: 0px;
+    margin-left: -9px;
+    background-color: white;
+    padding: 0;
+}
+
+#descount {
+    width: 100%;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+#descount>h4 {
+    color: rgb(10, 169, 227);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: x-small;
+    width: 80%;
+    float: left;
+}
+
+#descount>h3 {
+    float: right;
+    color: gray;
+    font-size: x-small;
+    margin-right: 10px;
+
+}
+
+.itm-box {
+    width: auto;
+    height: 200px;
+    background-color: rgb(237, 237, 237);
+    margin: 5px;
+    float: left;
+}
+
+.itm-box>.itm-img {
+    width: 45%;
+    height: 100%;
+    float: left;
+}
+
+.itm-img>img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.itm-box>.itm-txt {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(236, 236, 236);
+    padding-left: 60px;
+
+}
+
+.itm-txt>p {
+    color: rgb(75, 74, 74);
+    font-size: x-small;
+}
+
+.itm-txt>:nth-child(2) {
+    color: rgb(33, 32, 32);
+    font-size: medium;
+}
+
+.btn-b {
+    border: none;
+    color: rgb(44, 44, 44);
+    font-size: x-small;
+    background-color: rgb(194, 193, 193);
+}
+
+.rating {
+    width: 100%;
+    height: 15px;
+}
+
+.rating>p {
+    font-size: small;
+    float: left;
+    color: rgb(10, 178, 225);
+    margin-right: 5px;
+    margin-left: 2px;
+}
+
+.str {
+    margin-top: 2.5px;
+    float: left;
+    display: flex;
+    place-items: center;
+}
+
+.str>button {
+    width: 8px;
+    height: 8px;
+    border: none;
+    margin: 1px;
+    background-color: rgb(250, 199, 14);
+
+}
+
+.str>small {
+    margin-left: 3px;
+    color: gray;
+}
+
+.today>p {
+    display: grid;
+    place-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.today {
+    margin-top: 5px;
+    background-color: brown;
+    width: 70%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: xx-small;
+    color: black;
+}
+
+small,
+sup {
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+.prime {
+    color: black;
+    font-size: 15px;
+    color: rgb(10, 141, 234);
+}
+
+b {
+    color: black;
+    font-size: small;
+}
+
+small>strike {
+    color: black;
+}
+
+ins {
+    color: rgb(81, 78, 78);
+    font-size: x-small;
+
+}
+
+/* small three watch */
+#div-small-three-watch {
+    background-color: transparent;
+    padding-left: 5px;
+    margin: 0;
+    padding: 0;
+    width: cover;
+    height: 130px;
+}
+
+.small-box-3>div {
+    float: left;
+    background-color: white;
+    width: 32%;
+    height: 90%;
+    margin-left: 1%;
+    border-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0px 0.1px 0.1px 1px gray;
+
+}
+
+.small-box-3>div>img {
+    width: 70px;
+    height: auto;
+    float: left;
+}
+
+.today {
+    margin-top: 5px;
+    background-color: brown;
+    width: 98%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: xx-small;
+
+}
+
+.today>p {
+    display: grid;
+    place-items: center;
+    color: white;
+}
+
+small,
+sup {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+.prime {
+    font-size: 15px;
+    color: rgb(10, 141, 234);
+}
+
+b {
+    font-size: small;
+}
